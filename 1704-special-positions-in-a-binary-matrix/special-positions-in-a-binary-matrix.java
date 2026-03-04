@@ -17,6 +17,7 @@ class Solution {
             for(int j=0;j<col;j++){
                 if(mat[i][j]==1 && rowcount[i]==1 && colcount[j]==1){
                     count++;
+                    break;
                 }
             }
         }
