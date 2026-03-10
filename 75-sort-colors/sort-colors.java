@@ -9,13 +9,13 @@ class Solution {
                 low++;
                 mid++;
             }
-            else if(nums[mid]==1) {
+            else if(nums[mid]==1){
                 mid++;
             }
             else{
-                temp2=nums[high];
-                nums[high]=nums[mid];
-                nums[mid]=temp2;
+                temp2=nums[mid];
+                nums[mid]=nums[high];
+                nums[high]=temp2;
                 high--;
             }
         }
